@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fce4ec; /* tom suave e romântico */
+    font-family: Didot, serif;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.mensagem-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efa3bc;
+    font-family: Didot, serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #c2185b;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    color: #c2185b;
+    line-height: 1.6;
+  }
+  

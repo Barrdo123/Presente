@@ -1,0 +1,55 @@
+.galeria-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e0346d;
+  }
+  
+  .carousel {
+    width: 90%;
+    max-width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+
+  .carousel img.active {
+    opacity: 1;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+
+    padding: 12px 24px;
+    margin: 0 10px;
+    background-color: #c2185b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ad1457;
+  }
+  
+
+img{
+    border-radius: 20px;
+  }
