@@ -1,55 +1,64 @@
 .galeria-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #e0346d;
-  }
-  
-  .carousel {
-    width: 90%;
-    max-width: 400px;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .carousel img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity 0.8s ease;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
+.temporizador {
+  margin-bottom: 30px;
+  background-color: #c2185b;
+  color: #fff;
+  border-radius: 10px;
+  font-size: large;
+  text-align: center;
+  padding: 10px;
+}
 
-  .carousel img.active {
-    opacity: 1;
-  }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  button {
+.carousel {
+  width: 90%;
+  max-width: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
 
-    padding: 12px 24px;
-    margin: 0 10px;
-    background-color: #c2185b;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #ad1457;
-  }
-  
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
 
-img{
-    border-radius: 20px;
-  }
+.carousel img.active {
+  opacity: 1;
+}
+
+.buttons {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  background-color: #c2185b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+  box-shadow: 2px 3px rgb(97, 97, 97);
+}
+
+button:hover {
+  background-color: #931149;
+}
+
+img {
+  border-radius: 50px;
+}
